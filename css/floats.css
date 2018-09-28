@@ -1,0 +1,156 @@
+body {
+  background: lightgrey;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: light;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+
+header {
+  color: #333;
+  background: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+
+.middle {
+  background-color:white ;
+  border: 1px solid #dddddd;
+  color: #333;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+line-height: 200%;
+  margin-top: 100px;
+
+  }
+
+  .col-md-8 {
+    
+  }
+
+
+
+/* header info */
+.logo {
+  background: #4aaaa5;
+  color: white;
+  display: inline;
+  padding: 10px 10px 10px 15px;
+  float: left;
+  
+}
+
+
+
+  hr {
+    border: 0;
+  height: 2px;
+  background: #ddd;
+  
+  }
+  
+  .image {
+  padding:8px 25px 0px 0px;
+  }
+  p {
+    color: #777777;
+  }
+
+
+/* footer info */
+footer {
+  background: #666666;
+  border-top: 5px solid #4aaaa5;
+  color: white;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+
+/* background info */
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+/* .col-centered{
+
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #777777;
+ 
+}
+
+li{
+  display: inline;
+  color: #777777;
+  height: 100%;
+}
+
+li a {
+  text-align: center;
+  color: #777777;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #4aaaa5;
+}
+
+nav {
+  float: right;
+}
+
+.thumbnail {
+padding-bottom: 30px;
+border-bottom: 20px;
+}
